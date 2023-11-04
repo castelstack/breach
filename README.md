@@ -12,6 +12,7 @@ Check out the live demo of the website:
 
 ## Technologies Used
 
+```bash
 Next.js: Next.js is a powerful React framework that allows for server-side rendering and easy creation of fast and scalable web applications.
 
 Tailwind CSS: Tailwind CSS is a utility-first CSS framework that helps in rapid UI development. It provides a set of utility classes that allow for easy styling and customization.
@@ -33,7 +34,7 @@ Zustand: Small, fast, and scalable bearbones state management solution.
 Axios: A simple library for API calls and integration.
 
 PS: All of these technologies are lightweight.
-
+```
 
 ## Getting Started
 
