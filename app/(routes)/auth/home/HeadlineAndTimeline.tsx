@@ -14,7 +14,7 @@ export default function HeadlineAndTimeline() {
   return (
     <main className=''>
       <div className='flex flex-col gap-2 mb-16'>
-        <h2 className='text-2'>Top picks</h2>
+        <h2 className='text-2 font-grotesk'>Top picks</h2>
         <h5 className='text-5'>Experience the best of Breach</h5>
         {topPick.loading ? (
           <Loading />

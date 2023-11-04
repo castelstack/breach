@@ -75,6 +75,7 @@
     text-transform: uppercase;
   }
 
+
   label {
   
     font-size: 12px;
@@ -106,6 +107,11 @@ body {
 button:disabled {
   opacity: 0.5;
 }
+
+.font-grotesk{
+  font-family: var(--font-grotesk);
+}
+
 
 .spinner {
   width: 56px;

@@ -23,7 +23,7 @@ export default function Streams() {
       <h4 className='text-5'>
         Discover trending content from topics you care about in real time
       </h4>
-      <div className='grid grid-cols-1 gap-6 pt-4 mt-6 border-t border-stroke items-start content-start min-h-[80vh] overflow-y-auto'>
+      <div className='grid grid-cols-1 gap-6 pt-4 mt-6 border-t border-stroke items-start content-start max-h-[80vh] overflow-y-auto'>
         {isLoading ? (
           <Loading />
         ) : (
