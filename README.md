@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- @format -->
+
+markdown
+
+## Breach express Website
+
+Welcome to Breach built using Next.js, Tailwind CSS, React-Query and Axios.
+
+## Live Demo
+
+Check out the live demo of the website:
+
+## Technologies Used
+
+Next.js: Next.js is a powerful React framework that allows for server-side rendering and easy creation of fast and scalable web applications.
+
+Tailwind CSS: Tailwind CSS is a utility-first CSS framework that helps in rapid UI development. It provides a set of utility classes that allow for easy styling and customization.
+
+React Query: React Query has an impressive list of features (which helps to minimize resource consumption):
+-caching;
+-deduping multiple requests for the same data into a single request;
+-performance optimizations like pagination and lazy loading data;
+-memoizing query results;
+
+Notiflix: An alert toast library for error handling and alert notifications.
+
+Formik and yup: Form validation and error handling.
+
+React-use-websocket: websocket connection.
+
+Zustand: Small, fast, and scalable bearbones state management solution.
+
+Axios: A simple library for API calls and integration.
+
+PS: All of these technologies are lightweight.
+
 
 ## Getting Started
 
-First, run the development server:
+Follow the steps below to set up the project on your local machine:
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/castelstack/breach.git
+
+cd project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Set environment variables:
 
-## Learn More
+Create a .env.local file in the root of the project and add the following:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+NEXT_PUBLIC_WS_URL="your_ws_url"
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+yarn dev
+```
 
-## Deploy on Vercel
+Open your browser and navigate to http://localhost:3000 to see the breach website.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+|-- src/
+|  |-- app/
+|   |-- pages.tsx
+|   |-- ...tsx
+|   |-- assets/
+       |-- images
+       |-- svgs
+       |-- ...tsx
+    |-- components/
+       |-- Button.tsx
+       |-- Header.tsx
+       |-- Footer.tsx
+       |-- ...tsx
+    |-- containers/
+       |-- Hero.tsx
+       |-- Posts.tsx
+       |-- ...tsx
+    |-- hooks/
+       |-- ...tsx
+    |-- services/
+       |-- ...tsx
+    |-- store/
+       |-- ...tsx
+|-- public/
+|   |-- images/
+|-- styles/
+|   |-- globals.css
+|-- types/
+|   |-- index.ts
+...
+```
+
+## Contributions
+
+Contributions are welcome! If you find any bugs or have suggestions for improvement, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+Thank you for checking out Breach project! If you have any questions or feedback, contact me.
+
+Happy coding! 🚀
