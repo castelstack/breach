@@ -75,6 +75,7 @@ Project Structure
 ```bash
 |  |-- app/
 |   |-- pages.tsx
+|   |-- globals.css
 |   |-- ...tsx
 |   |-- assets/
        |-- images
@@ -95,12 +96,10 @@ Project Structure
        |-- ...tsx
     |-- store/
        |-- ...tsx
+    |-- types/
+       |-- index.ts
 |-- public/
 |   |-- images/
-|-- styles/
-|   |-- globals.css
-|-- types/
-|   |-- index.ts
 ...
 ```
 
