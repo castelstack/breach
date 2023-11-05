@@ -73,7 +73,6 @@ Open your browser and navigate to http://localhost:3000 to see the breach websit
 Project Structure
 
 ```bash
-|-- src/
 |  |-- app/
 |   |-- pages.tsx
 |   |-- ...tsx
